@@ -1,0 +1,215 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Briket Arang Bojonegoro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #e0e0e0;
+    }.hero-header {
+  position: relative;
+  height: 100vh;
+  background-image: url('restoran.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #00ff88;
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  animation: slideUp 1.5s ease-out;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #a0a0a0;
+}
+
+.cta-button {
+  background-color: #00ff88;
+  color: #0f0f0f;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  box-shadow: 0 0 15px #00ff88;
+  transition: background 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.cta-button:hover {
+  background: #00cc70;
+  transform: scale(1.05);
+}
+
+.content {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  color: #00ff88;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #00ff88;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #00ff88;
+}
+
+form {
+  margin-top: 3rem;
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ff88;
+}
+
+form h2 {
+  color: #00ff88;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: none;
+  background: #333;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  background: #00ff88;
+  border: none;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #00cc70;
+}
+
+footer {
+  background-color: #000000;
+  color: #888;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .hero-text p {
+    font-size: 1rem;
+  }
+  .cta-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+  </style>
+</head>
+<body><header class="hero-header">
+  <div class="overlay"></div>
+  <div class="hero-text">
+    <h1>Arang Briket Berkualitas Sejak 2023</h1>
+    <p>Dari Balen, Bojonegoro - Jawa Timur, Indonesia</p>
+    <a href="https://wa.me/6281391213576" class="cta-button">Pesan via WhatsApp</a>
+  </div>
+</header><div class="content">
+  <p>Kami memproduksi dan menjual <strong>briket arang rumahan berkualitas tinggi</strong> sejak tahun 2023. Cocok untuk keperluan rumah tangga, bisnis kuliner, dan ekspor. Produk kami dibuat dari bahan alami, ramah lingkungan, dan memiliki daya bakar tahan lama.</p>  <ul>
+    <li>Tahan panas lebih lama</li>
+    <li>Ramah lingkungan</li>
+    <li>Tanpa bau dan asap berlebihan</li>
+    <li>Cocok untuk BBQ, restoran, dan UMKM</li>
+  </ul>  <div class="gallery">
+    <img src="arang briket 1kg.png" alt="Briket Arang 1">
+    <img src="arang briket 3kg.png" alt="Briket Arang 2">
+    <img src="arang briket 10kg.png" alt="Briket Arang 3">
+    <img src="restoran.jpg" alt="Briket Arang 4">
+    <img src="industri.jpg" alt="Briket Arang 5">
+    <img src="pengeringan.jpg" alt="Briket Arang 6">
+  </div>  <form action="https://wa.me/6281391213576" method="GET" target="_blank">
+    <h2>Formulir Pemesanan</h2>
+    <label for="name">Nama Lengkap</label>
+    <input type="text" id="name" name="text" placeholder="Masukkan nama Anda" required><label for="address">Alamat Lengkap</label>
+<textarea id="address" name="text" placeholder="Alamat pengiriman lengkap" required></textarea>
+
+<label for="jumlah">Jumlah Pesanan</label>
+<input type="text" id="jumlah" name="text" placeholder="Contoh: 5 kg, 10 kg" required>
+
+<label for="catatan">Catatan Tambahan</label>
+<textarea id="catatan" name="text" placeholder="(Opsional)"></textarea>
+
+<button type="submit">Kirim Pesanan via WhatsApp</button>
+
+  </form>
+</div><footer>
+  <p>📍 Tloko, Desa Mulyoagung, Kecamatan Balen, Bojonegoro - Jawa Timur 62182</p>
+  <p>&copy; 2023 - 2025 Briket Arang Balen</p>
+</footer></body>
+</html>
